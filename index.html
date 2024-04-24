@@ -20,7 +20,7 @@
          </div>
          <p id="img-text">photo by<a href="">Halie West</a> on <a href="">Unsplash</a></p>
 </section>  
-<section class="form-section">
+<section class="text-section">
 <div class="form-up-text">
     <p> 
         Lorem ipsum dolor sit amet 
@@ -30,28 +30,44 @@
         soluta laborum labore.
     </p>
     <p>
-        You <span>know</span> you want to.
+        You <span id="span-text">know</span> you want to.
     </p>
 </div>
-<div class="form">
-    <h1>Lets do this!</h1>
+</section>
+<section class="form-section">
+    <h3>Lets do this!</h3>
+   <div class="main-div-form">
     <form action="" method="post">
-    <label for="first-name">First Name</label>
-    <input  type="name"> 
-    <label for="Last_name">Last Name</label>
-    <input  type="name"> 
-    <label for="phone_number">phone number</label> 
-    <input  type="number">
-    <label for="EMAIL">email</label> 
-    <input  type="email"> 
-    <label for="password">password</label>
-    <input  type="password">
-    <label for="first_name">confirm-password</label>
-    <input  type="password"> 
+        <div id="first-name" class="form-label">
+            <label for="first-name">First Name</label>
+            <input  type="name"> 
+        </div>
+        <div id="last-name" class="form-label">
+            <label  for="EMAIL">email</label> 
+            <input  type="email"> 
+        </div>
+        <div id="number" class="form-label">
+            <label  for="password">password</label> 
+            <input  type="password">
+        </div>
+        <div id="email" class="form-label">
+            <label  for="Last_name">Last Name</label>
+            <input  type="name"> 
+
+        </div>
+        <div id="password-one" class="form-label">
+
+            <label  for="EMAIL">email</label> 
+            <input  type="email"> 
+        </div>
+        <div id="password-two" class="form-label">
+            <label for="first_name">confirm-password</label>
+            <input type="password"> 
+        </div>
     <button type="submit">Create Account</button>
     </form>
-    <p>Already have Account? <a href="">log in</a></p>
 </div>
 </section> 
+<p>Already have Account? <a href="">log in</a></p>
 <script src="./src/script.js"></script>
 </body>
