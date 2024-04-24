@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: local(Norse-Bold), url(../src/Norse-Bold.otf)
+ }
+
+.card-image {
+    position: absolute;
+    max-width: 30%;
+    min-height: 100vh;
+
+  }
+  .card-body {
+    position: absolute;
+    width: 30%;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    top: 8rem;
+    text-align: center;
+    font-family: Norse-Bold;
+  }
+  
+.card-logo{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+.card-logo p{
+    margin: 0;
+    padding-top: 2rem;
+    font-size: 5em;
+}
+
+.card-logo img{
+    display: flex;
+    width: 25%;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    margin-left:30rem
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+#img-text{
+    margin: 0;
+    padding: 0;
+    top: 97vh;
+    left: 5rem;
+    position: absolute;
+    display: flex;
+    color: white;
+}
