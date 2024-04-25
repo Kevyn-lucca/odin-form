@@ -24,6 +24,7 @@
     opacity: 0.6;
     color: white;
     top: 8rem;
+    font-size: 5em;
     text-align: center;
     font-family: Norse-Bold;
   }
@@ -36,7 +37,6 @@
 .card-logo p{
     margin: 0;
     padding-top: 2rem;
-    font-size: 5em;
 }
 
 .card-logo img{
@@ -74,7 +74,7 @@ margin-left: 3rem
     color: white;
 }
 
-#span-text{
+span{
     font-style: italic;
 }
 
@@ -87,7 +87,7 @@ margin-left: 3rem
 .main-div-form > form:nth-child(1) > button:nth-child(7) {
     position: absolute;
     bottom: 200px;
-    background-color: rgb(42, 91, 42);
+    background-color: #596D48;
     color: white;
     padding: 10px 5px 10px;
     padding-left: 50px;
@@ -107,3 +107,16 @@ form{
     height: 13rem;
     margin-left: 3rem
 }
+
+input{
+    border-style: groove;
+    border-color: #E5E7EB;
+    border-radius: 4px;
+}
+
+input:focus{
+    border-style: groove;
+    border-color: lightblue;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
